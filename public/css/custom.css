@@ -1,0 +1,174 @@
+html{
+    padding:0;
+    margin:0
+}
+body{
+    padding:0;
+    margin:0
+}
+
+/* Ensure full-width container without padding */
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+.banner {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.banner img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Removes extra space below the image */
+}
+.container{
+    max-width: 100% !important;
+    padding: 0% !important;
+}
+
+
+
+
+/* custom.css */
+
+/* Style for the carousel slides */
+.slide {
+    background-size: cover;
+    background-position: center;
+    /* height: 400px; Adjust height as needed */
+}
+
+/* Optional: Style for the carousel captions */
+.carousel-caption h5 {
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+     align-items: center !important; /* Vertically center the content */
+}
+
+.carousel-caption p {
+    font-size: 1.25rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+/* Optional: Adjust control icons */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+.carousel-inner .carousel-item {
+    height: 600px !important;  /* Adjust the height as needed */
+}
+
+.carousel-inner .carousel-item .slide {
+    height: 100%;
+}
+
+
+
+.heading-style {
+    font-family: 'Merriweather', serif; /* Add a custom font if desired */
+    font-size: 1.5rem; /* Adjust size to be larger */
+    color: #2c3e50; /* Dark shade of blue for a professional look */
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 10px;
+    border-left: 5px solid #007bff; /* Blue border to the left for emphasis */
+    border-radius: 5px;
+    margin-bottom: 15px;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.heading-style:hover {
+    background-color: #e9ecef; /* Slightly darker gray on hover */
+    color: #007bff; /* Change text color on hover */
+}
+
+
+
+
+
+
+/* contact section css */
+
+/* Contact Section Styles */
+#contactSection {
+    background: linear-gradient(135deg, #90cbd6, #c79090); /* Gradient background */
+    padding: 40px 20px; /* Adequate padding for spacing */
+    border-radius: 8px; /* Rounded corners for the section */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+#contactSection h2 {
+    font-size: 2.5rem; /* Larger heading size for better prominence */
+    color: #333; /* Darker text color for better readability */
+    margin-bottom: 30px; /* Spacing between heading and content */
+}
+
+#contactSection .form-group {
+    margin-bottom: 20px; /* Spacing between form elements */
+}
+
+#contactSection .form-control {
+    border-radius: 0.25rem; /* Rounded corners for form inputs */
+    border: 1px solid #ced4da; /* Subtle border color */
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075); /* Light inner shadow */
+}
+
+#contactSection .btn-primary {
+    background-color: #007bff; /* Primary button color */
+    border-color: #007bff; /* Matching border color */
+    border-radius: 0.25rem; /* Rounded corners for buttons */
+    padding: 10px 20px; /* Comfortable padding */
+    font-size: 1.125rem; /* Slightly larger font size for readability */
+}
+
+#contactSection .btn-primary:hover {
+    background-color: #0056b3; /* Darker button color on hover */
+    border-color: #004a99; /* Matching border color on hover */
+}
+
+#contactSection .col-md-6 {
+    display: flex; /* Flexbox for alignment */
+    flex-direction: column; /* Column layout */
+    justify-content: center; /* Center items vertically */
+}
+
+#contactSection .col-md-6 h4 {
+    font-size: 1.25rem; /* Slightly larger font size for section headers */
+    color: #333; /* Consistent text color */
+    margin-bottom: 10px; /* Spacing between headers and text */
+}
+
+#contactSection .col-md-6 p {
+    font-size: 1rem; /* Consistent text size */
+    color: #555; /* Slightly lighter text color */
+    margin-bottom: 15px; /* Spacing between paragraphs */
+}
+
+#contactSection .icon {
+    font-size: 1.5rem; /* Size of the icons */
+    color: #007bff; /* Color of the icons */
+    margin-right: 10px; /* Space between icon and text */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #contactSection .row {
+        flex-direction: column; /* Stack columns on smaller screens */
+    }
+
+    #contactSection .col-md-6 {
+        margin-bottom: 20px; /* Add spacing between stacked columns */
+    }
+}
+
+
+
+
+
+
